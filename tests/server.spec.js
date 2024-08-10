@@ -1,5 +1,5 @@
 const request = require('supertest')
-const server = require('../src/server.js')
+const server = require('../index.js')
 
 describe('Operaciones CRUD de cafes', () => {
     it('Debería devolver un status 200 y un array con al menos un café en GET /cafes', async () => {

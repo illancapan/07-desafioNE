@@ -1,0 +1,11 @@
+# Ignorar la carpeta node_modules en la raíz del proyecto
+node_modules/
+
+# Ignorar la carpeta node_modules dentro de client
+client/node_modules/
+
+# Ignorar otros archivos y carpetas no deseados (opcional)
+dist/
+.env
+*.log
+.DS_Store
